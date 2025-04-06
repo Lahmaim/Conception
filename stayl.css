@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(103, 172, 199, 0.479);
+    display: flex;
+    flex-direction: column;
+  h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(18, 134, 201);
+  }
+    nav {
+        background-color: rgba(43, 230, 230, 0.37);
+        border-radius: 5cap;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        #link{
+            width: 50%;
+            display: none;
+        }
+    } 
+    .section{
+      display: flex;
+      justify-content: center;
+        flex-wrap: wrap;
+       gap: 50px;
+     .Produits{
+         display: flex;
+         flex-direction: column;
+         p{
+            display: flex;
+            justify-content: center;
+         }
+         button{
+             width: 200px;
+             border-radius: 3cap;
+         }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+      }
+    }
+    footer{
+        background-color: rgba(43, 230, 230, 0.37);
+    }
+}
+@media (min-width:480px){
+    body{
+        nav{
+            #link{
+                display: flex;
+                justify-content: space-around;
+            }
+            .bars{
+                display: none;
+            }
+        }
+    }
+}
